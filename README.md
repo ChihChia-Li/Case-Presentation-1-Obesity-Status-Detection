@@ -1,12 +1,12 @@
 # Case-1_Obesity-Status-Detection
 ## Digital Medicine 2021 
 
-### Hardware
+### Basic Requirements
 * Python 3.7
 * keras
 
 ### Reproducing Submission
-To reproduct my result, do the following steps:
+To reproduce my result, do the following steps:
 1. Dataset Preparation
 2. Train from scratch or Download Pretrained models
 3. Inference
@@ -33,7 +33,7 @@ Case Presentation 1 Data
 ```
 
 ### Train from scratch
-* Use Bidirectional LSTM as my training model
+* Use Bidirectional LSTM as training model
 * Change the path of ```train_dir_path```, ```test_dir_path``` and ```valid_dir_path```
 * Run all cells in ```CT05_Case_1.ipynb```
 
