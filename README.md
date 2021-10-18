@@ -14,7 +14,7 @@ To reproduct my result, do the following steps:
 ### Dataset Preparation
 * Traning, Testing and validation text files need to be placed in different folders 
 ```
-...
+Case Presentation 1 Data
     +- Train_Textual
     |  U_ID_2.txt
     |  U_ID_4.txt
