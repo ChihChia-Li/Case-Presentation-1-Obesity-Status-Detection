@@ -38,7 +38,7 @@ Case Presentation 1 Data
 * Run all cells in ```CT05_Case_1.ipynb```
 
 ### Download Pretrained models
-* Download pretrained models from model folder
+* Download pretrained models from this url: [https://drive.google.com/file/d/1siJCaIpNX5DGxSBP6KaHbogc1ucL-HCc/view?usp=sharing]
 * Run cells in ```CT05_Case_1.ipynb``` without running the **Start Training** part
 
 ### Inference
