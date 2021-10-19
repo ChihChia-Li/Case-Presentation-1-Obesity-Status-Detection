@@ -45,6 +45,7 @@ Case Presentation 1 Data
 
 ### Train from scratch
 * Use Bidirectional LSTM as training model
+* Download the pre-trained word vectors via this url: https://www.kaggle.com/danielwillgeorge/glove6b100dtxt
 * Change the path of ```train_dir_path```, ```test_dir_path``` and ```valid_dir_path```
 * Run all cells in ```CT05_Case_1.ipynb```
 
