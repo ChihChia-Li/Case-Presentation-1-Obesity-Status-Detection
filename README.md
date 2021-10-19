@@ -1,9 +1,19 @@
 # Case-1_Obesity-Status-Detection
 ## Digital Medicine 2021 
 
+### Task Overview
+In this case, we are required to detect the obesity status of a patient via his/her electronic medical discharge record. It can be divide to two kinds of electronic records, including textual and intuitive. Textual kind record contains certain words, such as "obesity", "obese" that can help us easily classify the obesity status of the patient. On the other hand, intuitive kind record relies on the intuition of doctors to inference the obesity status via other relational informations contatined in the record. Our task is to train a classfier that can detect the obesity status either the record is textual kind or intuitive kind.
+
 ### Basic Requirements
-* Python 3.7
-* keras
+* Python==3.7
+* keras==2.6.0
+* nltk==3.2.5
+* pandas==1.1.5
+* tqdm==4.62.3
+* scikit-learn==0.22.2.post1
+* tensorflow==2.6.0
+* numpy==1.19.5
+others are as colab environments
 
 ### Reproducing Submission
 To reproduce my result, do the following steps:
@@ -36,6 +46,7 @@ Case Presentation 1 Data
 * Use Bidirectional LSTM as training model
 * Change the path of ```train_dir_path```, ```test_dir_path``` and ```valid_dir_path```
 * Run all cells in ```CT05_Case_1.ipynb```
+*hyperparameters are set at section ```Set up Bidirectional LSTM model``` in notebook file*
 
 ### Download Pretrained models
 * Download pretrained models from this url: https://drive.google.com/file/d/1siJCaIpNX5DGxSBP6KaHbogc1ucL-HCc/view?usp=sharing
