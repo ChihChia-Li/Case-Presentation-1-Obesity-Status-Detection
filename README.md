@@ -13,6 +13,7 @@ In this case, we are required to detect the obesity status of a patient via his/
 * scikit-learn==0.22.2.post1
 * tensorflow==2.6.0
 * numpy==1.19.5
+
 others are as colab environments
 
 ### Reproducing Submission
@@ -46,6 +47,7 @@ Case Presentation 1 Data
 * Use Bidirectional LSTM as training model
 * Change the path of ```train_dir_path```, ```test_dir_path``` and ```valid_dir_path```
 * Run all cells in ```CT05_Case_1.ipynb```
+
 *hyperparameters are set at section ```Set up Bidirectional LSTM model``` in notebook file*
 
 ### Download Pretrained models
